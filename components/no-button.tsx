@@ -10,7 +10,7 @@ export default function NoButton() {
     setX(Math.random() * 100);
   }
 
-  let noStyle = {
+  const noStyle = {
     left: x + "%",
   };
 
